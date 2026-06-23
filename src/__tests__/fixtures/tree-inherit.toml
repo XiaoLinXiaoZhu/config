@@ -1,0 +1,10 @@
+[base]
+a = 1
+
+[alt]
+a = 99
+
+[config]
+"&" = "base"
+"&&" = "alt"
+b = 2

@@ -1,0 +1,9 @@
+[base]
+value = "inherited"
+
+[override]
+value = "picked"
+
+[config]
+"&" = "base"
+"&value" = "override.value"

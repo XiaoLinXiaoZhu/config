@@ -1,0 +1,4 @@
+[settings.llm]
+provider = "anthropic"
+api_key = "$ANTHROPIC_KEY"
+model = "claude-opus"

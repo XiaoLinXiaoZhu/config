@@ -1,0 +1,5 @@
+[sample]
+enabled = true
+
+[config.foo]
+"&is_on" = "sample.enabled"

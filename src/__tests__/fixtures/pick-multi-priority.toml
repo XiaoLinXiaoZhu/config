@@ -1,0 +1,9 @@
+[source1]
+a = "s1"
+
+[source2]
+a = "s2"
+
+[config]
+"&a" = "source1.a"
+"&&a" = "source2.a"

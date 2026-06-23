@@ -1,0 +1,8 @@
+[base]
+a = 1
+
+[alt]
+a = 2
+
+[config]
+"&" = "$PRESET"

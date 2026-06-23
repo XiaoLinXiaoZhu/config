@@ -1,0 +1,3 @@
+[settings.llm]
+provider = "anthropic"
+api_key = "sk-test"

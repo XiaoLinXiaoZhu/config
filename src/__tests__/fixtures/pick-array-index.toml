@@ -1,0 +1,6 @@
+[items]
+list = ["a", "b", "c"]
+
+[config]
+"&first" = "items.list.0"
+"&third" = "items.list.2"

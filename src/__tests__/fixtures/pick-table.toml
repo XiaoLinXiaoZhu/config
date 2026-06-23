@@ -1,0 +1,8 @@
+[sample]
+
+[sample.nested]
+x = 1
+y = 2
+
+[config.foo]
+"&data" = "sample.nested"

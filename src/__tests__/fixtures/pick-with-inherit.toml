@@ -1,0 +1,11 @@
+[base]
+id = "base"
+bool = true
+
+[config.sample]
+bool = false
+
+[config.foo]
+"&" = "base"
+id = "foo"
+"&bool" = "config.sample.bool"

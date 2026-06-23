@@ -1,0 +1,11 @@
+[base]
+
+[base.thinking]
+type = "enabled"
+budget_tokens = 10000
+
+[config]
+"&" = "base"
+
+[config.thinking]
+budget_tokens = 5000

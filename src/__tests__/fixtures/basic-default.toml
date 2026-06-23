@@ -1,0 +1,4 @@
+[settings.llm]
+provider = "deepseek"
+api_key = "sk-test"
+model = "deepseek-r1"

@@ -1,0 +1,4 @@
+[settings.llm]
+provider = "anthropic"
+api_key = "sk-global"
+model = "claude-opus"

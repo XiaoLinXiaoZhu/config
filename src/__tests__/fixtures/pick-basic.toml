@@ -1,0 +1,7 @@
+[sample]
+bool = false
+num = 42
+
+[config.foo]
+"&bool" = "sample.bool"
+"&num" = "sample.num"

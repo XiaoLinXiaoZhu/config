@@ -1,0 +1,49 @@
+{
+  "name": "@xlxz/config",
+  "version": "0.1.0",
+  "description": "TOML 配置加载器，支持 & 前缀继承、zod 校验、来源溯源",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "default": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "bun test",
+    "typecheck": "bunx tsc --noEmit",
+    "lint": "bunx biome check --write .",
+    "prepublishOnly": "bun run build && bun test"
+  },
+  "dependencies": {
+    "smol-toml": "^1.3.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.16",
+    "@types/bun": "^1.3.14",
+    "typescript": "^5.9.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XiaoLinXiaoZhu/config.git"
+  },
+  "homepage": "https://github.com/XiaoLinXiaoZhu/config#readme",
+  "keywords": [
+    "toml",
+    "config",
+    "zod",
+    "inheritance",
+    "validation",
+    "trace"
+  ]
+}
