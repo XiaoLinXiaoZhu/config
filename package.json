@@ -1,6 +1,6 @@
 {
   "name": "@xlxz/config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "TOML 配置加载器，支持 & 前缀继承、zod 校验、来源溯源",
   "type": "module",
   "exports": {
