@@ -6,14 +6,14 @@
  */
 
 // easy api
-export { getConfig } from "./config.ts";
-export { resolveInherits } from "./inherit.ts";
-export { mergeSources } from "./merge.ts";
+export { getConfig } from "./config";
+export { resolveInherits } from "./inherit";
+export { mergeSources } from "./merge";
 // 纯函数步骤
-export { parseTOMLSources } from "./parse.ts";
+export { parseTOMLSources } from "./parse";
 // 工具
-export { deepClone, getByPath } from "./path.ts";
-export { buildFinalTrace } from "./trace.ts";
+export { deepClone, getByPath } from "./path";
+export { buildFinalTrace } from "./trace";
 // 类型
 export type {
 	ConfigError,
@@ -28,6 +28,6 @@ export type {
 	ParsedSource,
 	Trace,
 	TraceEntry,
-} from "./types.ts";
-export { validateSchema } from "./validate.ts";
-export { resolveVars } from "./vars.ts";
+} from "./types";
+export { validateSchema } from "./validate";
+export { resolveVars } from "./vars";

@@ -5,7 +5,7 @@
  */
 
 import { parse as parseTOML } from "smol-toml";
-import type { ConfigError, ConfigSource, ParsedSource } from "./types.ts";
+import type { ConfigError, ConfigSource, ParsedSource } from "./types";
 
 function isObject(v: unknown): v is Record<string, unknown> {
 	return v !== null && typeof v === "object" && !Array.isArray(v);

@@ -4,7 +4,7 @@
 
 import { expect, test } from "bun:test";
 import { z } from "zod";
-import { getConfig } from "../index.ts";
+import { getConfig } from "../index";
 import treeInherit from "./fixtures/tree-inherit.toml" with { type: "text" };
 import treePick from "./fixtures/tree-pick.toml" with { type: "text" };
 

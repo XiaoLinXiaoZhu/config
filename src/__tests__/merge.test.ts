@@ -4,7 +4,7 @@
 
 import { expect, test } from "bun:test";
 import { z } from "zod";
-import { getConfig } from "../index.ts";
+import { getConfig } from "../index";
 import mergeDefault from "./fixtures/merge-default.toml" with { type: "text" };
 import mergeGlobal from "./fixtures/merge-global.toml" with { type: "text" };
 import mergeProject from "./fixtures/merge-project.toml" with { type: "text" };

@@ -4,7 +4,7 @@
  * 后者覆盖前者。trace 记录每个字段的值和来源。
  */
 
-import type { ParsedSource, Trace } from "./types.ts";
+import type { ParsedSource, Trace } from "./types";
 
 function isObject(v: unknown): v is Record<string, unknown> {
 	return v !== null && typeof v === "object" && !Array.isArray(v);

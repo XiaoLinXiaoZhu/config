@@ -4,7 +4,7 @@
  * 在继承解析完成后，构建 InheritTree，记录每个 table 的继承源、自有字段、pick 列表。
  */
 
-import type { FieldPick, InheritSource, InheritTree } from "./types.ts";
+import type { FieldPick, InheritSource, InheritTree } from "./types";
 
 /**
  * 判断 key 是否为 table 级继承（key 全部由 & 组成）。

@@ -4,7 +4,7 @@
 
 import { expect, test } from "bun:test";
 import { z } from "zod";
-import { getConfig } from "../index.ts";
+import { getConfig } from "../index";
 import errorMulti from "./fixtures/error-multi.toml" with { type: "text" };
 import errorSchema from "./fixtures/error-schema.toml" with { type: "text" };
 

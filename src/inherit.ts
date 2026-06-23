@@ -13,9 +13,9 @@ import {
 	extractInheritInfo,
 	isFieldPickKey,
 	isTableInheritKey,
-} from "./inherit-tree.ts";
-import { deepClone, getByPath } from "./path.ts";
-import type { ConfigError, InheritTree, Trace } from "./types.ts";
+} from "./inherit-tree";
+import { deepClone, getByPath } from "./path";
+import type { ConfigError, InheritTree, Trace } from "./types";
 
 function isObject(v: unknown): v is Record<string, unknown> {
 	return v !== null && typeof v === "object" && !Array.isArray(v);

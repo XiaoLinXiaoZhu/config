@@ -4,7 +4,7 @@
 
 import { expect, test } from "bun:test";
 import { z } from "zod";
-import { getConfig } from "../index.ts";
+import { getConfig } from "../index";
 import inheritBasic from "./fixtures/inherit-basic.toml" with { type: "text" };
 import inheritChain from "./fixtures/inherit-chain.toml" with { type: "text" };
 import inheritCircular from "./fixtures/inherit-circular.toml" with {

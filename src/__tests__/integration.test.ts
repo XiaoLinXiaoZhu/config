@@ -4,7 +4,7 @@
 
 import { expect, test } from "bun:test";
 import { z } from "zod";
-import { getConfig } from "../index.ts";
+import { getConfig } from "../index";
 
 test("全局定义 base，项目通过继承引用", () => {
 	const schema = z.object({

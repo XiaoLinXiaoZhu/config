@@ -2,7 +2,7 @@
  * 测试工具函数
  */
 
-import type { ConfigSource } from "../types.ts";
+import type { ConfigSource } from "../types";
 
 /**
  * 从 TOML 文本创建 ConfigSource。

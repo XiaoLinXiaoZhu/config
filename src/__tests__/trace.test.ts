@@ -4,7 +4,7 @@
 
 import { expect, test } from "bun:test";
 import { z } from "zod";
-import { getConfig } from "../index.ts";
+import { getConfig } from "../index";
 import basicDefault from "./fixtures/basic-default.toml" with { type: "text" };
 import inheritBasic from "./fixtures/inherit-basic.toml" with { type: "text" };
 import mergeDefault from "./fixtures/merge-default.toml" with { type: "text" };

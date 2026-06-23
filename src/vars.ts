@@ -6,7 +6,7 @@
  * 在继承解析之前执行，支持 "&" = "$PRESET" 动态切换继承源。
  */
 
-import type { ConfigError, Trace } from "./types.ts";
+import type { ConfigError, Trace } from "./types";
 
 const VAR_RE = /^\$([A-Za-z_][A-Za-z0-9_]*)$/;
 

@@ -3,7 +3,7 @@
  */
 
 import type { z } from "zod";
-import type { ConfigError } from "./types.ts";
+import type { ConfigError } from "./types";
 
 /**
  * 用 zod schema 校验数据。失败返回错误（含 zod issues 详情）。

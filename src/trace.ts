@@ -4,7 +4,7 @@
  * 遍历校验后的数据，为 trace 中缺失的字段补充来源（标为 "zod default"）。
  */
 
-import type { Trace } from "./types.ts";
+import type { Trace } from "./types";
 
 function isObject(v: unknown): v is Record<string, unknown> {
 	return v !== null && typeof v === "object" && !Array.isArray(v);

@@ -4,7 +4,7 @@
 
 import { expect, test } from "bun:test";
 import { z } from "zod";
-import { getConfig } from "../index.ts";
+import { getConfig } from "../index";
 import varBasic from "./fixtures/var-basic.toml" with { type: "text" };
 import varLowercase from "./fixtures/var-lowercase.toml" with { type: "text" };
 import varNoTrigger from "./fixtures/var-no-trigger.toml" with { type: "text" };

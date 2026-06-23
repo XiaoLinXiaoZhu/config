@@ -5,13 +5,13 @@
  */
 
 import type { z } from "zod";
-import { resolveInherits } from "./inherit.ts";
-import { mergeSources } from "./merge.ts";
-import { parseTOMLSources } from "./parse.ts";
-import { buildFinalTrace } from "./trace.ts";
-import type { ConfigResult, ConfigSource } from "./types.ts";
-import { validateSchema } from "./validate.ts";
-import { resolveVars } from "./vars.ts";
+import { resolveInherits } from "./inherit";
+import { mergeSources } from "./merge";
+import { parseTOMLSources } from "./parse";
+import { buildFinalTrace } from "./trace";
+import type { ConfigResult, ConfigSource } from "./types";
+import { validateSchema } from "./validate";
+import { resolveVars } from "./vars";
 
 function isObject(v: unknown): v is Record<string, unknown> {
 	return v !== null && typeof v === "object" && !Array.isArray(v);
